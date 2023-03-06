@@ -1,5 +1,5 @@
 body {
-    background-image: url("black.jpg");
+    background-image: url("image/black.jpg");
 }
 
 h1 {
@@ -8,10 +8,7 @@ h1 {
 }
 
 input {
-    line-height: 200px;/*垂直居中关键*/
-    text-align:center;
     background-color: #f66f6a;
-    margin:0 auto;
     color: white;
     width: 400px;
     height: 45px;
@@ -19,4 +16,10 @@ input {
     font-size: 16px;
     box-sizing: content-box;
     border-radius: 5px;
+}
+.warp{
+    line-height: 200px;/*垂直居中关键*/
+    text-align:center;
+    height: 200px;
+    font-size: 36px;
 }

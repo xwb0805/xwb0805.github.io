@@ -8,6 +8,8 @@ h1 {
 }
 
 input {
+    line-height: 200px;/*垂直居中关键*/
+    text-align:center;
     background-color: #f66f6a;
     margin:0 auto;
     color: white;

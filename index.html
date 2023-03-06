@@ -1,25 +1,40 @@
-<style>
-/*--预设--*/ 
-body { padding:0px;margin: 0px; } 
-#lyrow, #lyrow input, #lyrow textarea { font-size:12px;font-family: 'Microsoft YaHei', '微软雅黑', MicrosoftJhengHei, '华文细黑', STHeiti, MingLiu; } 
-#lyrow { height:100vh;width: 100vw; } 
-#lyrow div { min-height: 18px;  } 
-#lyrow input, #lyrow textarea { border:rgb(235, 235, 235) 1px solid;border-radius: 3px;padding: 5px 8px;outline: 0; } 
-#lyrow input:hover, #lyrow textarea:hover { border: 1px solid #6bc1f2; } 
-/*--编辑--*/ 
-#lyrow .a { padding:0 0 0 286px;font-weight:bold;color:rgba(68, 207, 246, 1); } 
-#lyrow .b { padding:0 0 0 337px; } 
-#lyrow .c { padding:0 0 0 345px; } 
-
-</style>
-<!--下载font-awesome.css图标包-->
-<!--https://www.58html.com/html/template/font-awesome.zip-->
-<link rel="stylesheet" href="https://www.58html.com/gui/css/font-awesome/css/font-awesome.css">
-<div id="lyrow">
-
-        
-<div > </div>
-    <h1 class="a">HELLO!I'M XWB.<br>THIS IS MY WEB.<br></h1>
-    <a class="b" href="https://ke.kuding.cn" target="_blank">酷町编程</a>
-    <a class="c" href="http://xwb0805.github.io/dl.html" target="_blank">登录</a>
-</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home
+            <span class="visually-hidden">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-sm-2" type="search" placeholder="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>

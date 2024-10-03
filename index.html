@@ -1,366 +1,144 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 <head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 7.3.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
-
-<link rel="stylesheet" href="/css/main.css">
-
-
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-
-<script id="hexo-configurations">
-    var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
-  </script>
-
-  <meta property="og:type" content="website">
-<meta property="og:title" content="八四·周报">
-<meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="八四·周报">
-<meta property="og:locale" content="zh_CN">
-<meta property="article:author" content="Alas-xwb">
-<meta name="twitter:card" content="summary">
-
-<link rel="canonical" href="http://example.com/">
-
-
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome : true,
-    isPost : false,
-    lang   : 'zh-CN'
-  };
-</script>
-
-  <title>八四·周报</title>
-  
-
-
-
-
-
-
-  <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
-
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
-
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
-
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
-
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="切换导航栏">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="author" content="Alas-xwb">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui/dist/css/mdui.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/186526/hexo-theme-mduilw@master/source/css/main.min.css">
+<script src="https://cdn.jsdelivr.net/npm/mdui/dist/js/mdui.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js"></script>
+<!--传统手艺不能丢-->
+<script>var bug = 0;</script>
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/favicon.ico">
+<title>八四·周报</title>
+<meta name="generator" content="Hexo 7.3.0"></head>
+<body class="mdui-theme-primary-blue mdui-theme-accent-green" id="main-body">
+    <header class="mdui-appbar ">
+    <div class="mdui-toolbar mdui-color-theme mdui-appbar-inset">
+        <span mdui-drawer="{target: '#main-drawer', swipe: true}" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white "><i class="mdui-icon material-icons mdui-text-color-white-icon">menu</i></span>
+        <a href="/" class="mdui-typo-title mdui-text-color-white-text">八四·周报</a>
+        <div class="mdui-toolbar-spacer"></div>
     </div>
-  </div>
-
-  <div class="site-meta">
-
-    <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">八四·周报</h1>
-      <span class="logo-line-after"><i></i></span>
-    </a>
-  </div>
-
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger">
-    </div>
-  </div>
-</div>
-
-
-
-
-<nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
-
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
-
-  </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
-
-  </li>
-  </ul>
-</nav>
-
-
-
-
-</div>
-    </header>
-
-    
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
-
-
-    <main class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          
-
-          <div class="content index posts-expand">
-            
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2024/10/03/%E8%AE%A9%E7%83%AD%E8%A1%80%E7%82%B9%E4%BA%AE%E9%9D%92%E6%98%A5-%E5%90%88%E8%82%A5%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E4%B8%AD%E5%AD%A6%E4%B8%BE%E5%8A%9E%E7%AC%AC53%E5%B1%8A%E7%94%B0%E5%BE%84%E8%BF%90%E5%8A%A8%E4%BC%9A/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Alas-xwb">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="八四·周报">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/10/03/%E8%AE%A9%E7%83%AD%E8%A1%80%E7%82%B9%E4%BA%AE%E9%9D%92%E6%98%A5-%E5%90%88%E8%82%A5%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E4%B8%AD%E5%AD%A6%E4%B8%BE%E5%8A%9E%E7%AC%AC53%E5%B1%8A%E7%94%B0%E5%BE%84%E8%BF%90%E5%8A%A8%E4%BC%9A/" class="post-title-link" itemprop="url">让热血点亮青春  合肥工业大学附属中学举办第53届田径运动会</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2024-10-03 09:59:14 / 修改时间：10:45:51" itemprop="dateCreated datePublished" datetime="2024-10-03T09:59:14+08:00">2024-10-03</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="八四·周报"><a href="#八四·周报" class="headerlink" title="八四·周报"></a><table><tr><td bgcolor=lightgreen><center><font face="余繁真素体" size=20>八四·周报</font><center></h2><h2 id="BASI·ZHOUBAO"><a href="#BASI·ZHOUBAO" class="headerlink" title="BASI·ZHOUBAO"></a><center><font face="余繁真素体" size=15>BASI·ZHOUBAO</font><center></td></tr></table></h2><p><br></br><br><br></br></p>
-<h1 id="让热血点亮青春"><a href="#让热血点亮青春" class="headerlink" title="让热血点亮青春"></a><center><font face="平方洒脱体" size=50>让热血点亮青春</h1><p></font><center></p>
-<h2 id="合肥工业大学附属中学举办第53届田径运动会"><a href="#合肥工业大学附属中学举办第53届田径运动会" class="headerlink" title="合肥工业大学附属中学举办第53届田径运动会"></a><center><font face="平方洒脱体" size=5>合肥工业大学附属中学举办第53届田径运动会</h2><p></font><center></p>
-<p align="left"><font face="平方洒脱体" size=4>&emsp;&ensp;  为了发扬顽强拼搏的体育精神，丰富学生的业余生活 ，合肥工业大学附属中学（以下简称工大附中）举办了第53届田径运动会。此举获得了校领导、老师、学生等所有相关人员的大力支持。</font></p>
-<p align="left"><font face="平方洒脱体" size=4>&emsp;&ensp;运动会于9月21日和22日两天举行。2024年9月21日上午8时，运动会开幕式准时进行。首先，所有学生排成一个个整齐划一的方阵在操场上走过，他们口号喊得响亮，步伐走得坚定，似乎在向着这天地展现少年的蓬勃和青春的热血。然后，场上响起了庄严肃穆的国歌，场上无论学生教师家长还是无关人员全体起立，目视国旗，彼时《义勇军进行曲》响彻云霄。其次是各年级表演节目。小学部‘‘武动国学之旭日东升’’，稚嫩的脸上哪怕全是汗依旧认真的完成动作。初中部的同学们男生手握红旗，女生手捧鲜花，上下挥动。“恰同学少年，风华正茂！”七年级的同学们手举旗帜，在音乐的律动下卖力舞动，他们的脸上淌着汗水，眼神坚定。鲜红色的旗帜随着少年们的挥动肆意在风中蜷缩、舒展。红色的旗帜与附中红色的校服相互衬印，红色昭示着祖国繁荣昌盛，红色昭示着热血的青春，红色昭示着昂扬的生命力！高中部同学们向大家展示了中华传统的舞狮和舞龙，‘‘龙腾虎跃庆盛世’’，笨拙的道具在他们手里似乎格外听话，狮子生动有灵趣，龙威武霸气，在几人的配合下龙狮完成了一个又一个高难度动作，最终经过精准的摆出“附中”的字样。
- </font></p>
- <p align="left"><font face="平方洒脱体" size=4>&emsp;&ensp; 随后是各个领导讲话，他们讲述了他们举办运动会的初衷以及各个部门对此次运动会做出的部署，并预祝运动会圆满结束。最后随着一声清脆的响声，许多气球随风飘起，少年们仰头注视，运动会又一次推入了高潮。最后合肥工业大学党委常委、副校长季益洪宣布合肥工业大学附属中学第53届运动会正式开始！ </font></p>
-
-
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
-  
-
-
-
-          </div>
-          
-
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
-      }
-    }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
-</script>
-
-        </div>
-          
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
-
-  <aside class="sidebar">
-    <div class="sidebar-inner">
-
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          文章目录
+</header>
+    <div class="mdui-drawer mdui-drawer-close"  id="main-drawer" style="padding: 20px">
+    <ul class="mdui-list" mdui-collapse="{accordion: true}">
+        
+        <li class="mdui-list-item mdui-ripple">
+            <div class="mdui-list-item-avatar"><img src="https://cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/images/avatar.jpeg"/></div>
+            <div class="mdui-list-item-content">Alas-xwb</div>
         </li>
-        <li class="sidebar-nav-overview">
-          站点概览
-        </li>
-      </ul>
-
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-      </div>
-      <!--/noindex-->
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">Alas-xwb</p>
-  <div class="site-description" itemprop="description"></div>
-</div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
         
-          <span class="site-state-item-count">1</span>
-          <span class="site-state-item-name">日志</span>
-        </a>
-      </div>
-  </nav>
+        <li class="mdui-list-item mdui-ripple" href="/" >
+            <a href="/" class="mdui-list-item-icon mdui-icon material-icons">home</a>
+            <a href="/" class="mdui-list-item-content">主页</a>
+        </li>
+        
+        <li class="mdui-list-item mdui-ripple" href="javascript:void(0);" onclick="darkmod_use()">
+            <a class="mdui-list-item-icon mdui-icon material-icons">brightness_4</a>
+            <a class="mdui-list-item-content">深色模式</a>
+        </li>
+        
+        
+        <li class="mdui-list-item mdui-ripple" href="/archives/">
+            <a class="mdui-list-item-icon mdui-icon material-icons" href="/archives/">inbox</a>
+            <a class="mdui-list-item-content" href="/archives/">存档</a>
+        </li>
+        
+        
+            <li class="mdui-collapse-item">
+                <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                    <a class="mdui-list-item-icon mdui-icon material-icons">account_circle</a>
+                    <div class="mdui-list-item-content">其他平台</div>
+                    <div class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</div>
+                </div>
+                <ul class="mdui-collapse-item-body mdui-list mdui-list-dense">
+                    
+                        <a class="mdui-list-item mdui-ripple" target="_blank" rel="noopener" href="https://github.com/yourname">Github</a>
+                    
+                </ul>
+            </li>
+        
+        
+            <li class="mdui-collapse-item">
+                <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                    <a class="mdui-list-item-icon mdui-icon material-icons">bookmark</a>
+                    <div class="mdui-list-item-content">页面</div>
+                    <div class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</div>
+                </div>
+                <ul class="mdui-collapse-item-body mdui-list mdui-list-dense">
+                    
+                        <a class="mdui-list-item mdui-ripple" href="guestbook/">Guestbook</a>
+                    
+                        <a class="mdui-list-item mdui-ripple" href="about/">About</a>
+                    
+                </ul>
+            </li>
+        
+        
+            <li class="mdui-collapse-item">
+                <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                    <a class="mdui-list-item-icon mdui-icon material-icons">people</a>
+                    <div class="mdui-list-item-content">友链</div>
+                    <div class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</div>
+                </div>
+                <ul class="mdui-collapse-item-body mdui-list mdui-list-dense mdui-ripple">
+                    
+                    <div class="mdui-list-item">
+                    <div class="mdui-list-item-avatar mdui-float-left" style=""><img src="https://cdn.jsdelivr.net/gh/186526/hexo-theme-lx/source/images/avatar.jpg"/></div>
+                    <div class="mdui-list-item-content" href="https://186526.xyz">186526</div>
+                    </div>
+                    
+                </ul>
+            </li>
+        
+    </ul>
+</div>
+    <div class="mdui-container" id="pjax-main">
+        <div id="card_of_archive">
+    
+        <div class="mdui-card mdui-hoverable" style="margin-top: 3%;">
+            <div class="mdui-card-header">
+                <img class="mdui-card-header-avatar" src="https://cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/images/avatar.jpeg"/>
+                <div class="mdui-card-header-title">Alas-xwb</div>
+                <div class="mdui-card-header-subtitle">Hexo-Theme-MDUI</div>
+            </div>
+            <div class="mdui-card-media">
+                <img src=""/>
+                <div class="mdui-card-media-covered">
+                    <div class="mdui-card-primary">
+                        <div class="mdui-card-primary-title">让热血点亮青春  合肥工业大学附属中学举办第53届田径运动会</div>
+                    </div>
+                </div>
+            </div>
+            <div class="mdui-card-actions">
+                <a class="mdui-btn mdui-ripple mdui-float-right" href="/2024/10/03/%E8%AE%A9%E7%83%AD%E8%A1%80%E7%82%B9%E4%BA%AE%E9%9D%92%E6%98%A5-%E5%90%88%E8%82%A5%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E4%B8%AD%E5%AD%A6%E4%B8%BE%E5%8A%9E%E7%AC%AC53%E5%B1%8A%E7%94%B0%E5%BE%84%E8%BF%90%E5%8A%A8%E4%BC%9A/">点我阅读<i class="mdui-icon material-icons">navigate_next</i></a>
+            </div>
+         </div>
+    
 </div>
 
 
+        <!--传统手艺不能丢-->
+<script>var bug = 0;</script>
+<div style="text-align: center;margin-top: 10%;">
 
-      </div>
+</div>
+        
+<a class="mdui-fab mdui-ripple mdui-color-green mdui-fab-fixed" href="/"><i href="/" class="material-icons mdui-icon mdui-text-color-black-icon">home</i></a>
 
     </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
-
-
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-inner">
-        
-
-        
-
-<div class="copyright">
-  
-  &copy; 
-  <span itemprop="copyrightYear">2024</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Alas-xwb</span>
-</div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
-  </div>
-
-        
-
-
-
-
-
-
-
-
-      </div>
-    </footer>
-  </div>
-
-  
-  <script src="/lib/anime.min.js"></script>
-  <script src="/lib/velocity/velocity.min.js"></script>
-  <script src="/lib/velocity/velocity.ui.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/muse.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
 </body>
+
+    <script>
+        $(document).pjax('a', '#pjax-main' , {fragment:'#pjax-main', timeout:8000});
+        
+        </script>
+        
+<script src="https://cdn.jsdelivr.net/gh/186526/hexo-theme-mduilw@master/source/js/main.min.js"></script>
+<script>function girlfriends() {console.log("你在想peach");document.write("<div>你在想peach</div>");return false};</script>
 </html>
